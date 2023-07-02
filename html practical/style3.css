@@ -1,0 +1,131 @@
+{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:black;
+    background-size: 100%;
+    color:white;
+
+}
+nav{
+
+    display:flex;
+    justify-content: center;
+    justify-content:space-around;
+    
+}
+ul{
+    display:flex;
+
+}
+ul li{
+    margin-inline:80px;
+    list-style: none;
+    margin-top: 20px;
+    font-size: 25px;
+    color:solid white;
+}
+ul li a:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+
+}
+nav h1{
+    font-size: 40px;
+    color:rgb(202, 33, 33);
+    border-bottom:2px solid white ;
+}
+nav button{
+    width: 110px;
+    height: 36px;
+    background-color:rgb(202, 33, 33);
+    color:white;
+    font-size: 19px;
+    margin-top:18px;
+}
+.about{
+	background-color:rgb(209, 209, 133);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.about-content{
+	text-align: center;
+}
+.about-content h1{
+	font-size:40px;
+	color:rgb(214, 43, 43);
+	margin-bottom: 30px;
+}
+.about-content p{
+	max-width: 800px;
+	font-size: 30px;
+	font-weight: 800;
+	color:rgb(19, 109, 218);
+	line-height: 30px;
+}
+
+.contact{
+	padding: 80px 17%;
+	background:rgb(209, 209, 133);
+}
+.main-contact{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+	gap: 2rem;
+	margin-bottom: 3rem;
+}
+.contact-content li{
+	margin-bottom: 15px;
+}
+.contact-content li a{
+	display: block;
+	color: rgb(214, 43, 43);
+	font-size: var(--p-font);
+	font-weight: 600;
+	transition: all .40s ease;
+}
+.contact-content li a:hover{
+	transform: translateX(-10px);
+}
+.action form{
+	text-align: center;
+}
+.action form input[type="email"]{
+	width: 460px;
+	max-width: 100%;
+	padding: 12px 15px;
+	background:beige;
+	color:rgb(214, 43, 43);
+	border: none;
+	outline: none;
+	margin: 0px 10px 20px 0px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.action form input[type="submit"]{
+	padding: 10px 35px;
+	background:beige;
+	color:rgb(214, 43, 43);
+	border: none;
+	outline: none;
+	margin: 0px 10px 20px 0px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.last{
+	text-align: center;
+	padding: 17px;
+	background:beige;
+}
+.last p{
+	color:rgb(214, 43, 43);
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
